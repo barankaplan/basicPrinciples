@@ -1,0 +1,14 @@
+package paket;
+
+public abstract class Paket {
+    private int amount;
+
+    public int getAmount() {
+        return amount;
+    }
+
+    public void setAmount(int amount) {
+        this.amount = amount;
+    }
+
+}
